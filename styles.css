@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+:root{
+    --font-family: 'Questrial', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    transition: 1s;
+}
+
+h1{
+    font-size: 3em;
+    font-family: var(--font-family);
+}
+
+.dark-mode{
+    background-color: black;
+    color: aliceblue;
+}
