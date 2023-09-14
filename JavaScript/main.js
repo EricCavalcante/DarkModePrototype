@@ -1,6 +1,10 @@
 const button = document.querySelector("#button")
 
-button.addEventListener('click', () => {
-    document.body.classList.toggle("dark-mode")
-})
+function click (){
+    button.addEventListener('click', () => {
+        document.body.classList.toggle("dark-mode")
+        return
+    })
+}
 
+click()
