@@ -2,7 +2,7 @@
 
 :root{
     --font-family: 'Questrial', sans-serif;
-    --bg-color-bright : #DDE6ED;
+    --bg-color-bright : #F2EADA;
     --bg-color-dark: #27374D;
     --btn-bg-color: #4F709C;
     --font-color-brigth : #F2EADA;
@@ -15,9 +15,10 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 100vh;
+    height: 100vh;
     transition: 1s;
     background-color: var(--bg-color-bright);
+    color: var(--bg-color-dark);
 }
 
 h1{
